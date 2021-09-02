@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+body {
+    font-family: 'Lora', serif !important;
+    color: #000000;
+    text-align: center;
+}
+
+.show{
+    display:inline-flexbox;
+}
+.hidden{
+    display:none;
+}
+
+.jumbotron {
+    overflow-x: scroll;
+}
+
+.jumbotron table {
+    margin-top: 2rem;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-form input {
+    margin-bottom: 1rem;
+}
+
+.add-form-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.add-form-buttons #add-form-submit {
+    margin-right: 1rem;
+}
+
+.list-header {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#list-call {
+    margin-left: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
